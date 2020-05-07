@@ -1,8 +1,6 @@
-Verbatim phrases and listings in LaTeX
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-README by pts@fazekas.hu at Sun Jan 16 15:33:24 CET 2005
+# Verbatim phrases and listings in LaTeX
 
-This directory contains the examplep LaTeX package, which provides
+`examplep` provides
 sophisticated features for typesetting verbatim source code listings,
 including the display of the source code and its compiled LaTeX or METAPOST
 output side-by-side, with automatic width detection and enabled page breaks
@@ -22,6 +20,24 @@ package for authors of manuals, is also presented. With codep it is possible
 to generate the source code, the LaTeX or METAPOST output and the compilable
 example file onto the CD from a single source embedded into the appropriate
 place of the .tex document file.
+
+## Alternatives
+
+Following packages also have the same aim, but have certain drawbacks:
+
+* [tcolorbox](https://www.ctan.org/pkg/tcolorbox) - nice boxes, but does not support floating environments
+* [showexpl](https://ctan.org/pkg/showexpl) - does not fully support floating environments
+* [latexdemo](https://ctan.org/pkg/latexdemo) - nice boxes, but does not support floating environments
+* `tkzexample` (part of [tkz-doc](https://ctan.org/pkg/tkz-doc)) - nice boxes, but does not support floating environments
+* `fancyvrb-ex` (part of [facnyvrb](https://ctan.org/pkg/fancyvrb)) - nice boxes, but does not support floating environments
+* `cnltx-example`(part of [cnltx](https://www.ctan.org/pkg/cnltx)) - nice boxes, but does not support isolated floating environments
+* [sverb](https://www.ctan.org/pkg/sverb) - offers the `demo` environment. Does not support isolated floating environments.
+* `lstdoc` (part of [listings](https://www.ctan.org/pkg/listings)) - works inside the listings package, but causes issues at "normal" usage.
+* `ydoc-expl` (part of [ydoc](https://www.ctan.org/pkg/ydoc))
+
+See <https://tex.stackexchange.com/q/19295/9075> for details and examples on some of these packges.
+
+## License
 
 The software is free software, covered by the GNU GPL v2.0 or later.
 There is NO WARRANTY.
