@@ -21,6 +21,13 @@ to generate the source code, the LaTeX or METAPOST output and the compilable
 example file onto the CD from a single source embedded into the appropriate
 place of the `.tex` document file.
 
+## About this repository
+
+This is a repository building on the source found on  https://ctan.org/pkg/examplep (a5ab281101062e1e369462a6449eb43ad642a8c4) and on the author's homepage at <http://www.math.bme.hu/~pts/examplep_all.zip> (6a293ce44130e9d1eedfb427398292f6b829974e).
+It is intended to collect issues and to offer a platform to submit improvements.
+
+In case, the package can be improved, I will try to publish an updated version on CTAN.
+
 ## Alternatives
 
 Following packages also have the same aim, but have certain drawbacks:
