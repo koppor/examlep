@@ -35,7 +35,9 @@ Following packages also have the same aim, but have certain drawbacks:
 * `lstdoc` (part of [listings](https://www.ctan.org/pkg/listings)) - works inside the listings package, but causes issues at "normal" usage.
 * `ydoc-expl` (part of [ydoc](https://www.ctan.org/pkg/ydoc))
 
-See <https://tex.stackexchange.com/q/19295/9075> for details and examples on some of these packges.
+See the [CTAN topic macro-demo](https://ctan.org/topic/macro-demo) for a complete list of all packages offering a similar functionality.
+
+See <https://tex.stakexchange.com/q/19295/9075> for details and examples on some of these packges.
 
 ## License
 
